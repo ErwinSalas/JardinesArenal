@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hoteljardinesarenal.jardinesarenal.Fragments.HomeFragment">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hotel_jardines_arenal"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal|top"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/arenal_volcano_hotels_home"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/main_view_p1"
+                android:textSize="17sp"
+                android:id="@+id/text"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/main_view_p2"
+                android:textSize="17sp"
+                android:id="@+id/text2"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

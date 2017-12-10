@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JardinesArenal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hotel_jardines_arenal">HOTEL JARDINES ARENAL</string>
+    <string name="main_view_p1">
+        This is a beautiful property to relax and enjoy
+        to the view of arenal volcano in La Fortuna,
+        San Carlos, Costa Rica. We have a nice location around Arenal
+        Volcano hotels.
+    </string>
+    <string name="main_view_p2">
+        La Fortuna  is one of the main tourist destinations in Costa Rica
+        and Central America. In addition to its major attraction such as the
+        Arenal Volcano. La Fortuna is a place that offers visitors a wide range
+        of services and a variety of attractions near the Arenal Volcano.
+    </string>
+    <string name="max_person">Max person</string>
+</resources>
